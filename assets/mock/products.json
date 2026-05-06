@@ -1,0 +1,112 @@
+[
+  {
+    "id": "p001",
+    "name": "Nova Pro Earbuds",
+    "price": 89.99,
+    "imageUrl": "https://picsum.photos/seed/earbuds1/400/400",
+    "description": "Premium wireless earbuds with active noise cancellation and 30-hour battery life. Featuring custom-tuned drivers for immersive audio and IPX5 water resistance.",
+    "category": "Audio",
+    "rating": 4.7,
+    "reviewCount": 1243,
+    "isInStock": true
+  },
+  {
+    "id": "p002",
+    "name": "SoundCore Max Speaker",
+    "price": 149.99,
+    "imageUrl": "https://picsum.photos/seed/speaker2/400/400",
+    "description": "Portable Bluetooth speaker delivering 360° surround sound with powerful bass. Waterproof design perfect for outdoor adventures with 20-hour playtime.",
+    "category": "Audio",
+    "rating": 4.5,
+    "reviewCount": 876,
+    "isInStock": true
+  },
+  {
+    "id": "p003",
+    "name": "StudioFi Over-Ear Headphones",
+    "price": 249.99,
+    "imageUrl": "https://picsum.photos/seed/headphones3/400/400",
+    "description": "Studio-grade over-ear headphones with hi-res audio certification and foldable design. The 40mm custom drivers deliver exceptional clarity across all frequencies.",
+    "category": "Audio",
+    "rating": 4.9,
+    "reviewCount": 2104,
+    "isInStock": true
+  },
+  {
+    "id": "p004",
+    "name": "Apex Series Watch",
+    "price": 299.99,
+    "imageUrl": "https://picsum.photos/seed/watch4/400/400",
+    "description": "Advanced smartwatch with health monitoring, GPS tracking, and 7-day battery life. Supports 100+ workout modes with automatic detection and detailed analytics.",
+    "category": "Wearables",
+    "rating": 4.6,
+    "reviewCount": 3412,
+    "isInStock": true
+  },
+  {
+    "id": "p005",
+    "name": "FitBand Pro X",
+    "price": 79.99,
+    "imageUrl": "https://picsum.photos/seed/fitband5/400/400",
+    "description": "Slim fitness band with continuous heart rate monitoring and sleep tracking. Features a vibrant AMOLED display with always-on capability and 14-day battery life.",
+    "category": "Wearables",
+    "rating": 4.3,
+    "reviewCount": 956,
+    "isInStock": false
+  },
+  {
+    "id": "p006",
+    "name": "UltraCase MagSafe Wallet",
+    "price": 39.99,
+    "imageUrl": "https://picsum.photos/seed/wallet6/400/400",
+    "description": "Premium leather phone wallet with MagSafe compatibility, holds up to 3 cards. Full-grain Italian leather with RFID blocking technology for secure card protection.",
+    "category": "Accessories",
+    "rating": 4.4,
+    "reviewCount": 672,
+    "isInStock": true
+  },
+  {
+    "id": "p007",
+    "name": "PowerVault 20K",
+    "price": 59.99,
+    "imageUrl": "https://picsum.photos/seed/powerbank7/400/400",
+    "description": "20,000mAh portable charger with 65W USB-C PD fast charging for laptops and phones. Compact design with LED power indicator and simultaneous charging for 3 devices.",
+    "category": "Accessories",
+    "rating": 4.8,
+    "reviewCount": 1567,
+    "isInStock": true
+  },
+  {
+    "id": "p008",
+    "name": "NexPad Pro Laptop",
+    "price": 499.99,
+    "imageUrl": "https://picsum.photos/seed/laptop8/400/400",
+    "description": "Ultra-slim 14-inch laptop with 12th gen processor, 16GB RAM, and 512GB NVMe SSD. Features a 2.8K OLED display with 90Hz refresh rate and 12-hour battery life.",
+    "category": "Computing",
+    "rating": 4.7,
+    "reviewCount": 823,
+    "isInStock": true
+  },
+  {
+    "id": "p009",
+    "name": "KeyMaster Mechanical Keyboard",
+    "price": 129.99,
+    "imageUrl": "https://picsum.photos/seed/keyboard9/400/400",
+    "description": "Compact 75% mechanical keyboard with hot-swappable switches and per-key RGB lighting. Wireless Bluetooth 5.0 with 3-device multi-pairing and 4000mAh battery.",
+    "category": "Computing",
+    "rating": 4.5,
+    "reviewCount": 1089,
+    "isInStock": true
+  },
+  {
+    "id": "p010",
+    "name": "BassBox Mini Speaker",
+    "price": 19.99,
+    "imageUrl": "https://picsum.photos/seed/minispeaker10/400/400",
+    "description": "Compact Bluetooth speaker with surprisingly powerful bass output and 360° sound. Features built-in microphone for hands-free calls and 8-hour battery life.",
+    "category": "Audio",
+    "rating": 4.1,
+    "reviewCount": 445,
+    "isInStock": true
+  }
+]

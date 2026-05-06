@@ -1,0 +1,40 @@
+name: shopwave
+description: "ShopWave - Production-grade Flutter shopping app"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.5.1
+  freezed_annotation: ^2.4.3
+  json_annotation: ^4.9.0
+  go_router: ^14.2.0
+  hive_flutter: ^1.1.0
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  flutter_animate: ^4.5.0
+  gap: ^3.0.1
+  intl: ^0.19.0
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.9
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
+  flutter_lints: ^4.0.0
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/mock/products.json
