@@ -435,15 +435,6 @@ class _CartActionButton extends ConsumerWidget {
                 for (var i = 0; i < quantity; i++) {
                   ref.read(cartProvider.notifier).addProduct(product);
                 }
-                ScaffoldMessenger.of(context).showSnackBar(
-                  SnackBar(
-                    content: const Text(AppStrings.addedToCart),
-                    action: SnackBarAction(
-                      label: AppStrings.viewCart,
-                      onPressed: () => context.go('/cart'),
-                    ),
-                  ),
-                );
               }
             }
           : null,
