@@ -214,21 +214,7 @@ class _AddToCartButton extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return GestureDetector(
       onTap: product.isInStock
-          ? () {
-              ref.read(cartProvider.notifier).addProduct(product);
-              ScaffoldMessenger.of(context)
-                ..clearSnackBars()
-                ..showSnackBar(
-                SnackBar(
-                  content: Text('${product.name} added to cart'),
-                  action: SnackBarAction(
-                    label: AppStrings.viewCart,
-                    onPressed: () {},
-                  ),
-                  duration: const Duration(seconds: 2),
-                ),
-              );
-            }
+          ? () => ref.read(cartProvider.notifier).addProduct(product)
           : null,
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 200),
